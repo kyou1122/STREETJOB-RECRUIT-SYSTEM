@@ -1,4 +1,5 @@
 StreetJobRecruit System 🚀
+
 A comprehensive, console-based recruitment management information system built with C++ and MySQL. This project was developed as part of the Bengkel 1 curriculum to digitize the manual recruitment lifecycle for Administrators, Employers, and Job Seekers.
 
 🛠 Tech Stack
