@@ -11,6 +11,8 @@ Connector: MySQL Connector/C++ 8.0
 
 Environment: XAMPP / MySQL Localhost
 
+
+
 ✨ Key Features
 
 Role-Based Access Control (RBAC): Secure login for Admins, Employers, and Seekers.
@@ -21,6 +23,9 @@ ID Abstraction: Uses a mapping system to hide internal Database Primary Keys fro
 
 Analytical Reporting: Generates real-time market insights including total application counts and category-wise demand.
 
+
+
+
 🛡 Robustness & Error Handling
 
 Input Validation: Features a custom validation layer to prevent std::cin failure and infinite loops from invalid data types.
@@ -28,6 +33,8 @@ Input Validation: Features a custom validation layer to prevent std::cin failure
 Database Integrity: Implements try-catch blocks for all SQL transactions to ensure the system handles database timeouts or foreign key violations gracefully.
 
 Consistency: Standardized options for location data ensure that SQL GROUP BY and COUNT queries remain 100% accurate.
+
+
 
 🚀 How to Run
 
