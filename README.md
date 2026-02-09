@@ -12,6 +12,7 @@ Connector: MySQL Connector/C++ 8.0
 Environment: XAMPP / MySQL Localhost
 
 ✨ Key Features
+
 Role-Based Access Control (RBAC): Secure login for Admins, Employers, and Seekers.
 
 Standardized Data Entry: Integrated selection menus for locations (e.g., Melaka, Selangor) to ensure data consistency and prevent fragmentation.
@@ -21,6 +22,7 @@ ID Abstraction: Uses a mapping system to hide internal Database Primary Keys fro
 Analytical Reporting: Generates real-time market insights including total application counts and category-wise demand.
 
 🛡 Robustness & Error Handling
+
 Input Validation: Features a custom validation layer to prevent std::cin failure and infinite loops from invalid data types.
 
 Database Integrity: Implements try-catch blocks for all SQL transactions to ensure the system handles database timeouts or foreign key violations gracefully.
@@ -28,6 +30,7 @@ Database Integrity: Implements try-catch blocks for all SQL transactions to ensu
 Consistency: Standardized options for location data ensure that SQL GROUP BY and COUNT queries remain 100% accurate.
 
 🚀 How to Run
+
 Clone the Repo: git clone https://github.com/your-username/StreetJobRecruit-System.git
 
 Database Setup: Import the provided .sql file into your local MySQL server (XAMPP).
